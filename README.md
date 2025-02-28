@@ -23,7 +23,7 @@ you to:
 5. [SQL Commands Reference](#sql-commands-reference)
     - [Database and Table Creation](#database-and-table-creation)
     - [Data Insert/Update](#data-insertupdate)
-    - [Queries](#queries)
+    - [Queries and Execution Plans](#queries-and-execution-plans)
 
 ## Requirements
 
@@ -337,7 +337,7 @@ Below is a list of the common options and specific sub-command options:
 
 These insertions are done using `INSERT IGNORE` to avoid duplicating records if they already exist.
 
-### Queries
+### Queries and Execution Plans
 
 1. `get_customers`
    ```sql
